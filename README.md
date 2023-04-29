@@ -3,7 +3,7 @@ A smart contract that facilitates the exchange of Ethers to a ERC-20 Tokens
 
 ## Steps to use the contracts : 
 1) deploy the ERC-20 contract and save the address of the deployed contract
-3) Deploy the EtherToTokenSwap contract on the same network(test network).
+3) Deploy the EtherToTokenSwap contract on the same network(test network). Do not forget to send some ethers to the contract while deploying.
 3) Use this address for using the "swapEtherToToken" function in the "EtherToTokenSwap" contract as the function argument along with the minimum amount of token required.
 
 ## About the ERC20 Token 
